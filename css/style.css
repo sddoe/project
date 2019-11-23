@@ -1,10 +1,15 @@
 #welcome-section{
     background-color: gray;
     text-align: center;
-
+    height: 600px;
 }
 
 .wellcome{
     color:lightcoral;
 }
 
+@media (min-width:600px){
+    .wellcome{
+        font-size: smaller;
+    }
+}
