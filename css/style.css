@@ -1,15 +1,30 @@
 #welcome-section{
     background-color: gray;
     text-align: center;
-    height: 600px;
+    height: 100vh;
 }
 
 .wellcome{
     color:lightcoral;
 }
 
-@media (min-width:600px){
+#navbar{
+    top: 0;
+    position: fixed;
+}
+
+/* @media (min-width: 1000px) and (max-width: 1024px){
     .wellcome{
         font-size: smaller;
+        width: 482px;
+    }
+} */
+
+@media (min-width: 720px){
+    #navbar{
+        background-color: blueviolet;
+    }
+    .wellcome{
+        background-color: chocolate;
     }
 }
